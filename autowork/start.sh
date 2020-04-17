@@ -18,6 +18,6 @@ mv hadoop_docker /opt/
 cd /opt/hadoop_docker
 
 echo start sh
-./build_docker_image.sh
-./create_network.sh
-./start_container.sh
+sudo bash build_docker_image.sh
+sudo bash create_network.sh
+sudo bash start_container.sh
