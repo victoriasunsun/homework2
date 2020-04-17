@@ -9,7 +9,7 @@ systemctl status docker
 
 echo deamon
 mkdir -p /etc/docker
-mv daemon.json /etc/docker/daemon.json
+cp daemon.json /etc/docker/daemon.json
 systemctl daemon-reload
 systemctl restart docker
 
